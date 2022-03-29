@@ -17,6 +17,7 @@ import http.cookiejar
 import threading
 import queue
 import itertools
+import tweepy
 
 # Etc
 import time
@@ -107,10 +108,6 @@ print()
 
 # Check Proxies
 
-# Remove previous Proxies
-checked_proxies = open('../Free-Proxy-Repo/proxy_list.txt',"r+")
-checked_proxies.truncate(0)
-checked_proxies.close()
 
 print('--------------------------------------')
 print('- Easy Proxy Scraper & Checker {} -'.format(version))
@@ -124,7 +121,7 @@ print()
 # Global variables
 in_filename  = 'proxies.txt'
 #in_directory = './'
-out_filename = '../Free-Proxy-Repo/proxy_list.txt'
+out_filename = 'checked.txt'
 test_url = 'http://www.google.com/humans.txt'
 thread_number = 100
 timeout_value = 10
@@ -279,3 +276,7 @@ print("In: %d. Good: %d, that's %.2f%%" % (total_proxy_num, good_proxy_num, 100.
 end_time = time.time()
 print("Time elapsed: %.1f seconds." % (end_time - start_time))
 print("Bye-bye!")
+
+
+final_result = "Total Proxies Crawled: {} | Total Good Proxies: {} | Download: https://cutt.ly/Lm8Vjq8 | #freeproxies #proxylist #freeproxylist #proxies #crackingtools #proxy #freestuff".format(total_proxy_num, good_proxy_num)
+print(final_result)

@@ -1,3 +1,7 @@
+# AUTHOR: @hendrik_bgr
+# For educational use only
+# Free for ever
+
 from requests_html import HTMLSession
 import requests
 import re
@@ -12,17 +16,15 @@ import aiohttp
 import datetime
 import urllib.request, urllib.parse, urllib.error
 import http.cookiejar
-# Concurrency
 import threading
 import queue
 import itertools
-import tweepy
 
 # Etc
 import time
 from colorama import Fore, Back, Style
 
-version = "0.0.3"
+version = "1.0"
 proxy_list = []
 proxy_count = 0
 bad_proxy_count = 0

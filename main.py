@@ -9,7 +9,6 @@ from threading import Thread
 import asyncio
 import sys
 import aiohttp
-from git import Repo
 import datetime
 import urllib.request, urllib.parse, urllib.error
 import http.cookiejar

@@ -73,6 +73,17 @@ You will find all checked & working proxies in:
 checked.txt
 ```
 
+# How To Run on Windows 10 (total beginners guide)
+## Made by @byomartin
+- Open Start and search for Microsoft Store
+- Find "python" and install Python 3.10
+- Download proxy scraper source code and unzip to any folder
+- Open source folder, on the file explorer address bar now type "cmd" to open command line terminal
+- Now type "pip install requests-html" to install requests-html module
+- Type "pip install aiohttp" to install aiohttp module
+- Now type "python3 main.py" the program will start
+- Wait till it finishes you will get fresh working proxies
+
 ## Authors
 
 * **Hendrik Bgr** - *Initial work* - [HendrikBgr](https://github.com/hendrikbgr)
@@ -80,6 +91,7 @@ checked.txt
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
+* Thanks to @byomartin for creating the beginners guide
 
 #### Notes
 

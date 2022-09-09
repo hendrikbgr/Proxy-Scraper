@@ -73,8 +73,8 @@ You will find all checked & working proxies in:
 checked.txt
 ```
 
-# How To Run on Windows 10 (total beginners guide)
-## Made by @byomartin
+## How To Run on Windows 10 ( total beginners guide )
+### Made by [@byomartin](https://github.com/byomartin)
 - Open Start and search for Microsoft Store
 - Find "python" and install Python 3.10
 - Download proxy scraper source code and unzip to any folder
@@ -91,7 +91,7 @@ checked.txt
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
-* Thanks to @byomartin for creating the beginners guide
+* Thanks to [@byomartin](https://github.com/byomartin) for creating the beginners guide
 
 #### Notes
 
